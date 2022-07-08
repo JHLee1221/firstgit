@@ -1,0 +1,25 @@
+[2.533s] Invoking command in '/home/leejeonghun/ros2_example_ws/build/examples_rclpy_minimal_service': PYTHONPATH=/home/leejeonghun/ros2_example_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/leejeonghun/ros2_example_ws/install/examples_rclpy_minimal_service --uninstall --editable --build-directory /home/leejeonghun/ros2_example_ws/build/examples_rclpy_minimal_service/build
+[2.938s] running develop
+[3.232s] Invoked command in '/home/leejeonghun/ros2_example_ws/build/examples_rclpy_minimal_service' returned '0': PYTHONPATH=/home/leejeonghun/ros2_example_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/leejeonghun/ros2_example_ws/install/examples_rclpy_minimal_service --uninstall --editable --build-directory /home/leejeonghun/ros2_example_ws/build/examples_rclpy_minimal_service/build
+[3.236s] Invoking command in '/home/leejeonghun/ros2_example_ws/src/examples/rclpy/services/minimal_service': PYTHONPATH=/home/leejeonghun/ros2_example_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_service build --build-base /home/leejeonghun/ros2_example_ws/build/examples_rclpy_minimal_service/build install --prefix /home/leejeonghun/ros2_example_ws/install/examples_rclpy_minimal_service --record /home/leejeonghun/ros2_example_ws/build/examples_rclpy_minimal_service/install.log --single-version-externally-managed
+[3.502s] running egg_info
+[3.503s] writing ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/PKG-INFO
+[3.503s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/dependency_links.txt
+[3.503s] writing entry points to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/entry_points.txt
+[3.503s] writing requirements to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/requires.txt
+[3.503s] writing top-level names to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/top_level.txt
+[3.535s] reading manifest file '../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[3.535s] writing manifest file '../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[3.536s] running build
+[3.536s] running build_py
+[3.536s] running install
+[3.537s] running install_lib
+[3.540s] running install_data
+[3.540s] running install_egg_info
+[3.541s] removing '/home/leejeonghun/ros2_example_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages/examples_rclpy_minimal_service-0.11.2-py3.8.egg-info' (and everything under it)
+[3.541s] Copying ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info to /home/leejeonghun/ros2_example_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages/examples_rclpy_minimal_service-0.11.2-py3.8.egg-info
+[3.541s] running install_scripts
+[3.558s] Installing service script to /home/leejeonghun/ros2_example_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[3.558s] Installing service_member_function script to /home/leejeonghun/ros2_example_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[3.558s] writing list of installed files to '/home/leejeonghun/ros2_example_ws/build/examples_rclpy_minimal_service/install.log'
+[3.583s] Invoked command in '/home/leejeonghun/ros2_example_ws/src/examples/rclpy/services/minimal_service' returned '0': PYTHONPATH=/home/leejeonghun/ros2_example_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_service build --build-base /home/leejeonghun/ros2_example_ws/build/examples_rclpy_minimal_service/build install --prefix /home/leejeonghun/ros2_example_ws/install/examples_rclpy_minimal_service --record /home/leejeonghun/ros2_example_ws/build/examples_rclpy_minimal_service/install.log --single-version-externally-managed

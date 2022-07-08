@@ -1,0 +1,8 @@
+running develop
+running egg_info
+writing ../../build/py_pubsub/match.egg-info/PKG-INFO
+writing dependency_links to ../../build/py_pubsub/match.egg-info/dependency_links.txt
+writing entry points to ../../build/py_pubsub/match.egg-info/entry_points.txt
+writing requirements to ../../build/py_pubsub/match.egg-info/requires.txt
+writing top-level names to ../../build/py_pubsub/match.egg-info/top_level.txt
+error: package directory 'match' does not exist

@@ -1,0 +1,20 @@
+-- run_test.py: invoking following command in '/home/leejeonghun/ros2_example_ws/src/examples/rclcpp/topics/minimal_subscriber':
+ - /opt/ros/galactic/bin/ament_cpplint --xunit-file /home/leejeonghun/ros2_example_ws/build/examples_rclcpp_minimal_subscriber/test_results/examples_rclcpp_minimal_subscriber/cpplint.xunit.xml
+
+Using '--root=..' argument
+
+Done processing /home/leejeonghun/ros2_example_ws/src/examples/rclcpp/topics/minimal_subscriber/lambda.cpp
+
+Done processing /home/leejeonghun/ros2_example_ws/src/examples/rclcpp/topics/minimal_subscriber/member_function.cpp
+
+Done processing /home/leejeonghun/ros2_example_ws/src/examples/rclcpp/topics/minimal_subscriber/member_function_with_topic_statistics.cpp
+
+Done processing /home/leejeonghun/ros2_example_ws/src/examples/rclcpp/topics/minimal_subscriber/member_function_with_unique_network_flow_endpoints.cpp
+
+Done processing /home/leejeonghun/ros2_example_ws/src/examples/rclcpp/topics/minimal_subscriber/not_composable.cpp
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/leejeonghun/ros2_example_ws/build/examples_rclcpp_minimal_subscriber/test_results/examples_rclcpp_minimal_subscriber/cpplint.xunit.xml'

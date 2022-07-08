@@ -1,0 +1,83 @@
+[0.091s] Invoking command in '/home/leejeonghun/ros2_example_ws/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/leejeonghun/ros2_example_ws/src/examples/rclcpp/timers/minimal_timer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_timer
+[3.044s] -- The C compiler identification is GNU 9.4.0
+[3.045s] -- The CXX compiler identification is GNU 9.4.0
+[3.045s] -- Check for working C compiler: /usr/bin/cc
+[3.045s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.045s] -- Detecting C compiler ABI info
+[3.045s] -- Detecting C compiler ABI info - done
+[3.045s] -- Detecting C compile features
+[3.045s] -- Detecting C compile features - done
+[3.046s] -- Check for working CXX compiler: /usr/bin/c++
+[3.046s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.046s] -- Detecting CXX compiler ABI info
+[3.046s] -- Detecting CXX compiler ABI info - done
+[3.046s] -- Detecting CXX compile features
+[3.046s] -- Detecting CXX compile features - done
+[3.046s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[3.046s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.046s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.047s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.047s] -- Found rclcpp: 9.2.1 (/opt/ros/galactic/share/rclcpp/cmake)
+[3.047s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.047s] -- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[3.047s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.047s] -- Found FastRTPS: /opt/ros/galactic/include  
+[3.047s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.047s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[3.047s] -- Found rmw_cyclonedds_cpp: 0.22.5 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[3.048s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.048s] -- Looking for pthread.h
+[3.048s] -- Looking for pthread.h - found
+[3.048s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.048s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.048s] -- Looking for pthread_create in pthreads
+[3.048s] -- Looking for pthread_create in pthreads - not found
+[3.048s] -- Looking for pthread_create in pthread
+[3.049s] -- Looking for pthread_create in pthread - found
+[3.049s] -- Found Threads: TRUE  
+[3.055s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[3.205s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.207s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.218s] -- Configured cppcheck include dirs: 
+[3.218s] -- Configured cppcheck exclude dirs and/or files: 
+[3.219s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.219s] -- Configured cpplint exclude dirs and/or files: 
+[3.220s] -- Added test 'lint_cmake' to check CMake code style
+[3.222s] -- Added test 'uncrustify' to check C / C++ code style
+[3.222s] -- Configured uncrustify additional arguments: 
+[3.222s] -- Added test 'xmllint' to check XML markup files
+[3.228s] -- Configuring done
+[3.248s] -- Generating done
+[3.251s] -- Build files have been written to: /home/leejeonghun/ros2_example_ws/build/examples_rclcpp_minimal_timer
+[3.399s] Invoked command in '/home/leejeonghun/ros2_example_ws/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/leejeonghun/ros2_example_ws/src/examples/rclcpp/timers/minimal_timer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_timer
+[3.405s] Invoking command in '/home/leejeonghun/ros2_example_ws/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/leejeonghun/ros2_example_ws/build/examples_rclcpp_minimal_timer -- -j12 -l12
+[3.625s] [35m[1mScanning dependencies of target timer_member_function[0m
+[3.650s] [35m[1mScanning dependencies of target timer_lambda[0m
+[3.855s] [ 25%] [32mBuilding CXX object CMakeFiles/timer_lambda.dir/lambda.cpp.o[0m
+[3.884s] [ 50%] [32mBuilding CXX object CMakeFiles/timer_member_function.dir/member_function.cpp.o[0m
+[14.186s] [ 75%] [32m[1mLinking CXX executable timer_member_function[0m
+[15.038s] [ 75%] Built target timer_member_function
+[20.839s] [100%] [32m[1mLinking CXX executable timer_lambda[0m
+[21.144s] [100%] Built target timer_lambda
+[21.176s] Invoked command in '/home/leejeonghun/ros2_example_ws/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/leejeonghun/ros2_example_ws/build/examples_rclcpp_minimal_timer -- -j12 -l12
+[21.604s] Invoking command in '/home/leejeonghun/ros2_example_ws/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/leejeonghun/ros2_example_ws/build/examples_rclcpp_minimal_timer
+[23.131s] -- Install configuration: ""
+[23.131s] -- Execute custom install script
+[23.131s] -- Symlinking: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_lambda
+[23.132s] -- Symlinking: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_member_function
+[23.132s] -- Symlinking: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_timer
+[23.132s] -- Symlinking: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_timer
+[23.132s] -- Symlinking: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.sh
+[23.132s] -- Symlinking: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.dsv
+[23.132s] -- Symlinking: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.sh
+[23.132s] -- Symlinking: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.dsv
+[23.132s] -- Symlinking: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.bash
+[23.132s] -- Symlinking: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.sh
+[23.133s] -- Symlinking: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.zsh
+[23.133s] -- Symlinking: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.dsv
+[23.133s] -- Symlinking: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.dsv
+[23.133s] -- Symlinking: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/packages/examples_rclcpp_minimal_timer
+[23.133s] -- Symlinking: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig.cmake
+[23.133s] -- Symlinking: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig-version.cmake
+[23.133s] -- Symlinking: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.xml
+[24.064s] Invoked command in '/home/leejeonghun/ros2_example_ws/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/leejeonghun/ros2_example_ws/build/examples_rclcpp_minimal_timer

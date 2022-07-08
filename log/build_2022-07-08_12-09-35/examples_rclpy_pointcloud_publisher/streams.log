@@ -1,0 +1,34 @@
+[1.891s] Invoking command in '/home/leejeonghun/ros2_example_ws/build/examples_rclpy_pointcloud_publisher': PYTHONPATH=/home/leejeonghun/ros2_example_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/leejeonghun/ros2_example_ws/install/examples_rclpy_pointcloud_publisher --uninstall --editable --build-directory /home/leejeonghun/ros2_example_ws/build/examples_rclpy_pointcloud_publisher/build
+[2.194s] running develop
+[2.361s] Removing /home/leejeonghun/ros2_example_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.8/site-packages/examples-rclpy-pointcloud-publisher.egg-link (link to .)
+[2.386s] Invoked command in '/home/leejeonghun/ros2_example_ws/build/examples_rclpy_pointcloud_publisher' returned '0': PYTHONPATH=/home/leejeonghun/ros2_example_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/leejeonghun/ros2_example_ws/install/examples_rclpy_pointcloud_publisher --uninstall --editable --build-directory /home/leejeonghun/ros2_example_ws/build/examples_rclpy_pointcloud_publisher/build
+[2.389s] Invoking command in '/home/leejeonghun/ros2_example_ws/src/examples/rclpy/topics/pointcloud_publisher': PYTHONPATH=/home/leejeonghun/ros2_example_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_pointcloud_publisher build --build-base /home/leejeonghun/ros2_example_ws/build/examples_rclpy_pointcloud_publisher/build install --prefix /home/leejeonghun/ros2_example_ws/install/examples_rclpy_pointcloud_publisher --record /home/leejeonghun/ros2_example_ws/build/examples_rclpy_pointcloud_publisher/install.log --single-version-externally-managed
+[2.630s] running egg_info
+[2.631s] writing ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/PKG-INFO
+[2.631s] writing dependency_links to ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/dependency_links.txt
+[2.631s] writing entry points to ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/entry_points.txt
+[2.631s] writing requirements to ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/requires.txt
+[2.631s] writing top-level names to ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/top_level.txt
+[2.675s] reading manifest file '../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/SOURCES.txt'
+[2.675s] writing manifest file '../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/SOURCES.txt'
+[2.675s] running build
+[2.675s] running build_py
+[2.675s] creating /home/leejeonghun/ros2_example_ws/build/examples_rclpy_pointcloud_publisher/build
+[2.675s] creating /home/leejeonghun/ros2_example_ws/build/examples_rclpy_pointcloud_publisher/build/lib
+[2.675s] creating /home/leejeonghun/ros2_example_ws/build/examples_rclpy_pointcloud_publisher/build/lib/examples_rclpy_pointcloud_publisher
+[2.676s] copying examples_rclpy_pointcloud_publisher/pointcloud_publisher.py -> /home/leejeonghun/ros2_example_ws/build/examples_rclpy_pointcloud_publisher/build/lib/examples_rclpy_pointcloud_publisher
+[2.676s] copying examples_rclpy_pointcloud_publisher/__init__.py -> /home/leejeonghun/ros2_example_ws/build/examples_rclpy_pointcloud_publisher/build/lib/examples_rclpy_pointcloud_publisher
+[2.676s] running install
+[2.676s] running install_lib
+[2.677s] creating /home/leejeonghun/ros2_example_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.8/site-packages/examples_rclpy_pointcloud_publisher
+[2.677s] copying /home/leejeonghun/ros2_example_ws/build/examples_rclpy_pointcloud_publisher/build/lib/examples_rclpy_pointcloud_publisher/pointcloud_publisher.py -> /home/leejeonghun/ros2_example_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.8/site-packages/examples_rclpy_pointcloud_publisher
+[2.677s] copying /home/leejeonghun/ros2_example_ws/build/examples_rclpy_pointcloud_publisher/build/lib/examples_rclpy_pointcloud_publisher/__init__.py -> /home/leejeonghun/ros2_example_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.8/site-packages/examples_rclpy_pointcloud_publisher
+[2.679s] byte-compiling /home/leejeonghun/ros2_example_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.8/site-packages/examples_rclpy_pointcloud_publisher/pointcloud_publisher.py to pointcloud_publisher.cpython-38.pyc
+[2.679s] byte-compiling /home/leejeonghun/ros2_example_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.8/site-packages/examples_rclpy_pointcloud_publisher/__init__.py to __init__.cpython-38.pyc
+[2.679s] running install_data
+[2.680s] running install_egg_info
+[2.682s] Copying ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info to /home/leejeonghun/ros2_example_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.8/site-packages/examples_rclpy_pointcloud_publisher-0.11.2-py3.8.egg-info
+[2.682s] running install_scripts
+[2.701s] Installing pointcloud_publisher script to /home/leejeonghun/ros2_example_ws/install/examples_rclpy_pointcloud_publisher/lib/examples_rclpy_pointcloud_publisher
+[2.701s] writing list of installed files to '/home/leejeonghun/ros2_example_ws/build/examples_rclpy_pointcloud_publisher/install.log'
+[2.723s] Invoked command in '/home/leejeonghun/ros2_example_ws/src/examples/rclpy/topics/pointcloud_publisher' returned '0': PYTHONPATH=/home/leejeonghun/ros2_example_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_pointcloud_publisher build --build-base /home/leejeonghun/ros2_example_ws/build/examples_rclpy_pointcloud_publisher/build install --prefix /home/leejeonghun/ros2_example_ws/install/examples_rclpy_pointcloud_publisher --record /home/leejeonghun/ros2_example_ws/build/examples_rclpy_pointcloud_publisher/install.log --single-version-externally-managed

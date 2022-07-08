@@ -1,0 +1,26 @@
+[2.804s] Invoking command in '/home/leejeonghun/ros2_example_ws/build/examples_rclpy_minimal_service': PYTHONPATH=/home/leejeonghun/ros2_example_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/leejeonghun/ros2_example_ws/install/examples_rclpy_minimal_service --editable --build-directory /home/leejeonghun/ros2_example_ws/build/examples_rclpy_minimal_service/build --no-deps install_data --install-dir /home/leejeonghun/ros2_example_ws/install/examples_rclpy_minimal_service
+[4.076s] running develop
+[4.707s] running egg_info
+[4.708s] creating examples_rclpy_minimal_service.egg-info
+[4.708s] writing examples_rclpy_minimal_service.egg-info/PKG-INFO
+[4.708s] writing dependency_links to examples_rclpy_minimal_service.egg-info/dependency_links.txt
+[4.711s] writing entry points to examples_rclpy_minimal_service.egg-info/entry_points.txt
+[4.712s] writing requirements to examples_rclpy_minimal_service.egg-info/requires.txt
+[4.712s] writing top-level names to examples_rclpy_minimal_service.egg-info/top_level.txt
+[4.714s] writing manifest file 'examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[4.818s] reading manifest file 'examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[4.818s] writing manifest file 'examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[4.883s] running build_ext
+[4.883s] Creating /home/leejeonghun/ros2_example_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages/site.py
+[4.887s] Creating /home/leejeonghun/ros2_example_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages/examples-rclpy-minimal-service.egg-link (link to .)
+[4.888s] Installing service script to /home/leejeonghun/ros2_example_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[4.889s] Installing service_member_function script to /home/leejeonghun/ros2_example_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[4.889s] 
+[4.890s] Installed /home/leejeonghun/ros2_example_ws/build/examples_rclpy_minimal_service
+[4.890s] running install_data
+[4.890s] creating /home/leejeonghun/ros2_example_ws/install/examples_rclpy_minimal_service/share/ament_index
+[4.891s] creating /home/leejeonghun/ros2_example_ws/install/examples_rclpy_minimal_service/share/ament_index/resource_index
+[4.891s] creating /home/leejeonghun/ros2_example_ws/install/examples_rclpy_minimal_service/share/ament_index/resource_index/packages
+[4.892s] copying resource/examples_rclpy_minimal_service -> /home/leejeonghun/ros2_example_ws/install/examples_rclpy_minimal_service/share/ament_index/resource_index/packages
+[4.892s] copying package.xml -> /home/leejeonghun/ros2_example_ws/install/examples_rclpy_minimal_service/share/examples_rclpy_minimal_service
+[4.955s] Invoked command in '/home/leejeonghun/ros2_example_ws/build/examples_rclpy_minimal_service' returned '0': PYTHONPATH=/home/leejeonghun/ros2_example_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/leejeonghun/ros2_example_ws/install/examples_rclpy_minimal_service --editable --build-directory /home/leejeonghun/ros2_example_ws/build/examples_rclpy_minimal_service/build --no-deps install_data --install-dir /home/leejeonghun/ros2_example_ws/install/examples_rclpy_minimal_service

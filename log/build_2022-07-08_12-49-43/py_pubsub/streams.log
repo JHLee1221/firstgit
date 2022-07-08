@@ -1,0 +1,25 @@
+[0.598s] Invoking command in '/home/leejeonghun/ros2_example_ws/build/py_pubsub': PYTHONPATH=/home/leejeonghun/ros2_example_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/leejeonghun/ros2_example_ws/install/py_pubsub --editable --build-directory /home/leejeonghun/ros2_example_ws/build/py_pubsub/build --no-deps install_data --install-dir /home/leejeonghun/ros2_example_ws/install/py_pubsub
+[0.817s] running develop
+[0.953s] running egg_info
+[0.954s] creating py_pubsub.egg-info
+[0.954s] writing py_pubsub.egg-info/PKG-INFO
+[0.954s] writing dependency_links to py_pubsub.egg-info/dependency_links.txt
+[0.954s] writing entry points to py_pubsub.egg-info/entry_points.txt
+[0.954s] writing requirements to py_pubsub.egg-info/requires.txt
+[0.954s] writing top-level names to py_pubsub.egg-info/top_level.txt
+[0.955s] writing manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[0.981s] reading manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[0.981s] writing manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[1.009s] running build_ext
+[1.009s] Creating /home/leejeonghun/ros2_example_ws/install/py_pubsub/lib/python3.8/site-packages/site.py
+[1.010s] Creating /home/leejeonghun/ros2_example_ws/install/py_pubsub/lib/python3.8/site-packages/py-pubsub.egg-link (link to .)
+[1.011s] Installing talker = py_pubsub.publisher_member_function:main,listener script to /home/leejeonghun/ros2_example_ws/install/py_pubsub/lib/py_pubsub
+[1.011s] 
+[1.011s] Installed /home/leejeonghun/ros2_example_ws/build/py_pubsub
+[1.011s] running install_data
+[1.012s] creating /home/leejeonghun/ros2_example_ws/install/py_pubsub/share/ament_index
+[1.012s] creating /home/leejeonghun/ros2_example_ws/install/py_pubsub/share/ament_index/resource_index
+[1.012s] creating /home/leejeonghun/ros2_example_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[1.012s] copying resource/py_pubsub -> /home/leejeonghun/ros2_example_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[1.012s] copying package.xml -> /home/leejeonghun/ros2_example_ws/install/py_pubsub/share/py_pubsub
+[1.034s] Invoked command in '/home/leejeonghun/ros2_example_ws/build/py_pubsub' returned '0': PYTHONPATH=/home/leejeonghun/ros2_example_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/leejeonghun/ros2_example_ws/install/py_pubsub --editable --build-directory /home/leejeonghun/ros2_example_ws/build/py_pubsub/build --no-deps install_data --install-dir /home/leejeonghun/ros2_example_ws/install/py_pubsub

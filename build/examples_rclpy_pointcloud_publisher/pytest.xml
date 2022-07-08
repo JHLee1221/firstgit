@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="0" hostname="leejeonghun-G7-7588" name="pytest" skipped="0" tests="3" time="0.735" timestamp="2022-07-08T11:58:00.574225"><testcase classname="examples_rclpy_pointcloud_publisher.topics.pointcloud_publisher.test.test_copyright" name="test_copyright" time="0.474"><system-out>No problems found, checked 5 files
+</system-out></testcase><testcase classname="examples_rclpy_pointcloud_publisher.topics.pointcloud_publisher.test.test_flake8" name="test_flake8" time="0.112"><system-out>
+6 files checked
+No problems found
+
+Checked files:
+
+* ./setup.py
+* ./examples_rclpy_pointcloud_publisher/pointcloud_publisher.py
+* ./examples_rclpy_pointcloud_publisher/__init__.py
+* ./test/test_flake8.py
+* ./test/test_copyright.py
+* ./test/test_pep257.py
+</system-out></testcase><testcase classname="examples_rclpy_pointcloud_publisher.topics.pointcloud_publisher.test.test_pep257" name="test_pep257" time="0.032"><system-out>checking ./examples_rclpy_pointcloud_publisher/__init__.py
+checking ./examples_rclpy_pointcloud_publisher/pointcloud_publisher.py
+checking ./setup.py
+checking ./test/test_copyright.py
+checking ./test/test_flake8.py
+checking ./test/test_pep257.py
+checking test/test_copyright.py
+checking test/test_flake8.py
+checking test/test_pep257.py
+No problems found
+</system-out></testcase></testsuite></testsuites>

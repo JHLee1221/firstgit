@@ -1,0 +1,57 @@
+[0.076s] Invoking command in '/home/leejeonghun/ros2_example_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/leejeonghun/ros2_example_ws/src/examples/rclcpp/topics/minimal_subscriber -DCMAKE_INSTALL_PREFIX=/home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_subscriber
+[1.049s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[1.049s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.049s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.049s] -- Found rclcpp: 9.2.1 (/opt/ros/galactic/share/rclcpp/cmake)
+[1.049s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.049s] -- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.050s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.050s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.050s] -- Found rmw_cyclonedds_cpp: 0.22.5 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.050s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.050s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.050s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.050s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.050s] -- Configured cppcheck include dirs: 
+[1.051s] -- Configured cppcheck exclude dirs and/or files: 
+[1.051s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.051s] -- Configured cpplint exclude dirs and/or files: 
+[1.051s] -- Added test 'lint_cmake' to check CMake code style
+[1.051s] -- Added test 'uncrustify' to check C / C++ code style
+[1.051s] -- Configured uncrustify additional arguments: 
+[1.051s] -- Added test 'xmllint' to check XML markup files
+[1.051s] -- Configuring done
+[1.064s] -- Generating done
+[1.067s] -- Build files have been written to: /home/leejeonghun/ros2_example_ws/build/examples_rclcpp_minimal_subscriber
+[1.112s] Invoked command in '/home/leejeonghun/ros2_example_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/leejeonghun/ros2_example_ws/src/examples/rclcpp/topics/minimal_subscriber -DCMAKE_INSTALL_PREFIX=/home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_subscriber
+[1.114s] Invoking command in '/home/leejeonghun/ros2_example_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/leejeonghun/ros2_example_ws/build/examples_rclcpp_minimal_subscriber -- -j12 -l12
+[1.246s] [ 20%] Built target subscriber_lambda
+[1.272s] [ 40%] Built target subscriber_member_function_with_unique_network_flow_endpoints
+[1.273s] [ 60%] Built target subscriber_member_function
+[1.281s] [ 80%] Built target subscriber_member_function_with_topic_statistics
+[1.287s] [100%] Built target subscriber_not_composable
+[1.312s] Invoked command in '/home/leejeonghun/ros2_example_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/leejeonghun/ros2_example_ws/build/examples_rclcpp_minimal_subscriber -- -j12 -l12
+[1.439s] Invoking command in '/home/leejeonghun/ros2_example_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/leejeonghun/ros2_example_ws/build/examples_rclcpp_minimal_subscriber
+[1.453s] -- Install configuration: ""
+[1.453s] -- Execute custom install script
+[1.453s] -- Up-to-date symlink: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_lambda
+[1.453s] -- Up-to-date symlink: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function
+[1.454s] -- Up-to-date symlink: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_topic_statistics
+[1.454s] -- Up-to-date symlink: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_unique_network_flow_endpoints
+[1.454s] -- Up-to-date symlink: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_not_composable
+[1.454s] -- Up-to-date symlink: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_subscriber
+[1.455s] -- Up-to-date symlink: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_subscriber
+[1.455s] -- Up-to-date symlink: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.sh
+[1.455s] -- Up-to-date symlink: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.dsv
+[1.455s] -- Up-to-date symlink: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.sh
+[1.456s] -- Up-to-date symlink: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.dsv
+[1.456s] -- Up-to-date symlink: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.bash
+[1.456s] -- Up-to-date symlink: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.sh
+[1.456s] -- Up-to-date symlink: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.zsh
+[1.456s] -- Up-to-date symlink: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.dsv
+[1.456s] -- Symlinking: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.dsv
+[1.468s] -- Up-to-date symlink: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/packages/examples_rclcpp_minimal_subscriber
+[1.469s] -- Up-to-date symlink: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig.cmake
+[1.469s] -- Up-to-date symlink: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig-version.cmake
+[1.471s] -- Up-to-date symlink: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.xml
+[1.517s] Invoked command in '/home/leejeonghun/ros2_example_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/leejeonghun/ros2_example_ws/build/examples_rclcpp_minimal_subscriber

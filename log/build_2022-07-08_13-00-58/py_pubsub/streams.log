@@ -1,0 +1,14 @@
+[0.606s] Invoking command in '/home/leejeonghun/ros2_example_ws/build/py_pubsub': PYTHONPATH=/home/leejeonghun/ros2_example_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/leejeonghun/ros2_example_ws/install/py_pubsub --uninstall --editable --build-directory /home/leejeonghun/ros2_example_ws/build/py_pubsub/build
+[0.834s] running develop
+[0.990s] Invoked command in '/home/leejeonghun/ros2_example_ws/build/py_pubsub' returned '0': PYTHONPATH=/home/leejeonghun/ros2_example_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/leejeonghun/ros2_example_ws/install/py_pubsub --uninstall --editable --build-directory /home/leejeonghun/ros2_example_ws/build/py_pubsub/build
+[0.992s] Invoking command in '/home/leejeonghun/ros2_example_ws/src/py_pubsub': PYTHONPATH=/home/leejeonghun/ros2_example_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/leejeonghun/ros2_example_ws/build/py_pubsub/build install --prefix /home/leejeonghun/ros2_example_ws/install/py_pubsub --record /home/leejeonghun/ros2_example_ws/build/py_pubsub/install.log --single-version-externally-managed
+[1.201s] running egg_info
+[1.201s] creating ../../build/py_pubsub/match.egg-info
+[1.201s] writing ../../build/py_pubsub/match.egg-info/PKG-INFO
+[1.201s] writing dependency_links to ../../build/py_pubsub/match.egg-info/dependency_links.txt
+[1.202s] writing entry points to ../../build/py_pubsub/match.egg-info/entry_points.txt
+[1.202s] writing requirements to ../../build/py_pubsub/match.egg-info/requires.txt
+[1.202s] writing top-level names to ../../build/py_pubsub/match.egg-info/top_level.txt
+[1.202s] writing manifest file '../../build/py_pubsub/match.egg-info/SOURCES.txt'
+[1.229s] error: package directory 'match' does not exist
+[1.243s] Invoked command in '/home/leejeonghun/ros2_example_ws/src/py_pubsub' returned '1': PYTHONPATH=/home/leejeonghun/ros2_example_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/leejeonghun/ros2_example_ws/build/py_pubsub/build install --prefix /home/leejeonghun/ros2_example_ws/install/py_pubsub --record /home/leejeonghun/ros2_example_ws/build/py_pubsub/install.log --single-version-externally-managed

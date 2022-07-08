@@ -1,0 +1,40 @@
+[0.602s] Invoking command in '/home/leejeonghun/ros2_example_ws/build/py_pubsub': PYTHONPATH=/home/leejeonghun/ros2_example_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/leejeonghun/ros2_example_ws/install/py_pubsub --uninstall --editable --build-directory /home/leejeonghun/ros2_example_ws/build/py_pubsub/build
+[0.828s] running develop
+[0.967s] Removing /home/leejeonghun/ros2_example_ws/install/py_pubsub/lib/python3.8/site-packages/py-pubsub.egg-link (link to .)
+[0.983s] Invoked command in '/home/leejeonghun/ros2_example_ws/build/py_pubsub' returned '0': PYTHONPATH=/home/leejeonghun/ros2_example_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/leejeonghun/ros2_example_ws/install/py_pubsub --uninstall --editable --build-directory /home/leejeonghun/ros2_example_ws/build/py_pubsub/build
+[0.986s] Invoking command in '/home/leejeonghun/ros2_example_ws/src/py_pubsub': PYTHONPATH=/home/leejeonghun/ros2_example_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/leejeonghun/ros2_example_ws/build/py_pubsub/build install --prefix /home/leejeonghun/ros2_example_ws/install/py_pubsub --record /home/leejeonghun/ros2_example_ws/build/py_pubsub/install.log --single-version-externally-managed
+[1.192s] running egg_info
+[1.192s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[1.192s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[1.193s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[1.193s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[1.193s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[1.220s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.221s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.221s] running build
+[1.222s] running build_py
+[1.222s] creating /home/leejeonghun/ros2_example_ws/build/py_pubsub/build
+[1.222s] creating /home/leejeonghun/ros2_example_ws/build/py_pubsub/build/lib
+[1.222s] creating /home/leejeonghun/ros2_example_ws/build/py_pubsub/build/lib/py_pubsub
+[1.222s] copying py_pubsub/publisher_member_function.py -> /home/leejeonghun/ros2_example_ws/build/py_pubsub/build/lib/py_pubsub
+[1.222s] copying py_pubsub/__init__.py -> /home/leejeonghun/ros2_example_ws/build/py_pubsub/build/lib/py_pubsub
+[1.222s] copying py_pubsub/subscriber_member_function.py -> /home/leejeonghun/ros2_example_ws/build/py_pubsub/build/lib/py_pubsub
+[1.222s] running install
+[1.222s] running install_lib
+[1.223s] creating /home/leejeonghun/ros2_example_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub
+[1.223s] copying /home/leejeonghun/ros2_example_ws/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/leejeonghun/ros2_example_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub
+[1.223s] copying /home/leejeonghun/ros2_example_ws/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/leejeonghun/ros2_example_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub
+[1.224s] copying /home/leejeonghun/ros2_example_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/leejeonghun/ros2_example_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub
+[1.224s] byte-compiling /home/leejeonghun/ros2_example_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-38.pyc
+[1.225s] byte-compiling /home/leejeonghun/ros2_example_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub/__init__.py to __init__.cpython-38.pyc
+[1.225s] byte-compiling /home/leejeonghun/ros2_example_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-38.pyc
+[1.225s] running install_data
+[1.226s] copying resource/py_pubsub -> /home/leejeonghun/ros2_example_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[1.226s] copying package.xml -> /home/leejeonghun/ros2_example_ws/install/py_pubsub/share/py_pubsub
+[1.226s] running install_egg_info
+[1.227s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/leejeonghun/ros2_example_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info
+[1.228s] running install_scripts
+[1.242s] Installing listener script to /home/leejeonghun/ros2_example_ws/install/py_pubsub/lib/py_pubsub
+[1.242s] Installing talker script to /home/leejeonghun/ros2_example_ws/install/py_pubsub/lib/py_pubsub
+[1.242s] writing list of installed files to '/home/leejeonghun/ros2_example_ws/build/py_pubsub/install.log'
+[1.258s] Invoked command in '/home/leejeonghun/ros2_example_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/leejeonghun/ros2_example_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/leejeonghun/ros2_example_ws/build/py_pubsub/build install --prefix /home/leejeonghun/ros2_example_ws/install/py_pubsub --record /home/leejeonghun/ros2_example_ws/build/py_pubsub/install.log --single-version-externally-managed

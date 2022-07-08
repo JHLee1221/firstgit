@@ -1,0 +1,93 @@
+[0.091s] Invoking command in '/home/leejeonghun/ros2_example_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/leejeonghun/ros2_example_ws/src/examples/rclcpp/topics/minimal_publisher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_publisher
+[1.170s] -- The C compiler identification is GNU 9.4.0
+[1.170s] -- The CXX compiler identification is GNU 9.4.0
+[1.170s] -- Check for working C compiler: /usr/bin/cc
+[1.171s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.171s] -- Detecting C compiler ABI info
+[1.171s] -- Detecting C compiler ABI info - done
+[1.171s] -- Detecting C compile features
+[1.171s] -- Detecting C compile features - done
+[1.171s] -- Check for working CXX compiler: /usr/bin/c++
+[1.171s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.171s] -- Detecting CXX compiler ABI info
+[1.171s] -- Detecting CXX compiler ABI info - done
+[1.171s] -- Detecting CXX compile features
+[1.171s] -- Detecting CXX compile features - done
+[1.171s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[1.171s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.172s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.172s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.172s] -- Found rclcpp: 9.2.1 (/opt/ros/galactic/share/rclcpp/cmake)
+[1.172s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.172s] -- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.323s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.402s] -- Found FastRTPS: /opt/ros/galactic/include  
+[1.547s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.666s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.670s] -- Found rmw_cyclonedds_cpp: 0.22.5 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.745s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.747s] -- Looking for pthread.h
+[1.934s] -- Looking for pthread.h - found
+[1.935s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.161s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.165s] -- Looking for pthread_create in pthreads
+[2.299s] -- Looking for pthread_create in pthreads - not found
+[2.300s] -- Looking for pthread_create in pthread
+[2.472s] -- Looking for pthread_create in pthread - found
+[2.474s] -- Found Threads: TRUE  
+[2.840s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[3.000s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.002s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.003s] -- Configured cppcheck include dirs: 
+[3.003s] -- Configured cppcheck exclude dirs and/or files: 
+[3.006s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.006s] -- Configured cpplint exclude dirs and/or files: 
+[3.007s] -- Added test 'lint_cmake' to check CMake code style
+[3.009s] -- Added test 'uncrustify' to check C / C++ code style
+[3.010s] -- Configured uncrustify additional arguments: 
+[3.011s] -- Added test 'xmllint' to check XML markup files
+[3.017s] -- Configuring done
+[3.047s] -- Generating done
+[3.051s] -- Build files have been written to: /home/leejeonghun/ros2_example_ws/build/examples_rclcpp_minimal_publisher
+[3.073s] Invoked command in '/home/leejeonghun/ros2_example_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/leejeonghun/ros2_example_ws/src/examples/rclcpp/topics/minimal_publisher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_publisher
+[3.075s] Invoking command in '/home/leejeonghun/ros2_example_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/leejeonghun/ros2_example_ws/build/examples_rclcpp_minimal_publisher -- -j12 -l12
+[3.217s] [35m[1mScanning dependencies of target publisher_member_function_with_unique_network_flow_endpoints[0m
+[3.219s] [35m[1mScanning dependencies of target publisher_not_composable[0m
+[3.236s] [35m[1mScanning dependencies of target publisher_member_function[0m
+[3.263s] [35m[1mScanning dependencies of target publisher_lambda[0m
+[3.306s] [ 12%] [32mBuilding CXX object CMakeFiles/publisher_not_composable.dir/not_composable.cpp.o[0m
+[3.310s] [ 25%] [32mBuilding CXX object CMakeFiles/publisher_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o[0m
+[3.312s] [ 37%] [32mBuilding CXX object CMakeFiles/publisher_member_function.dir/member_function.cpp.o[0m
+[3.379s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher_lambda.dir/lambda.cpp.o[0m
+[20.287s] [ 62%] [32m[1mLinking CXX executable publisher_lambda[0m
+[21.346s] [ 62%] Built target publisher_lambda
+[21.529s] [ 75%] [32m[1mLinking CXX executable publisher_not_composable[0m
+[22.692s] [ 87%] [32m[1mLinking CXX executable publisher_member_function_with_unique_network_flow_endpoints[0m
+[22.796s] [ 87%] Built target publisher_not_composable
+[23.113s] [ 87%] Built target publisher_member_function_with_unique_network_flow_endpoints
+[23.787s] [100%] [32m[1mLinking CXX executable publisher_member_function[0m
+[24.272s] [100%] Built target publisher_member_function
+[24.434s] Invoked command in '/home/leejeonghun/ros2_example_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/leejeonghun/ros2_example_ws/build/examples_rclcpp_minimal_publisher -- -j12 -l12
+[25.714s] Invoking command in '/home/leejeonghun/ros2_example_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/leejeonghun/ros2_example_ws/build/examples_rclcpp_minimal_publisher
+[25.832s] -- Install configuration: ""
+[25.833s] -- Execute custom install script
+[25.833s] -- Symlinking: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_lambda
+[25.833s] -- Symlinking: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function
+[25.859s] -- Symlinking: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_unique_network_flow_endpoints
+[25.884s] -- Symlinking: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_not_composable
+[25.906s] -- Symlinking: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_publisher
+[25.947s] -- Symlinking: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_publisher
+[25.994s] -- Symlinking: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.sh
+[26.050s] -- Symlinking: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.dsv
+[26.134s] -- Symlinking: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.sh
+[26.172s] -- Symlinking: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.dsv
+[26.228s] -- Symlinking: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.bash
+[26.269s] -- Symlinking: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.sh
+[26.319s] -- Symlinking: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.zsh
+[26.355s] -- Symlinking: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.dsv
+[26.391s] -- Symlinking: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.dsv
+[26.449s] -- Symlinking: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/packages/examples_rclcpp_minimal_publisher
+[26.491s] -- Symlinking: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig.cmake
+[26.532s] -- Symlinking: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig-version.cmake
+[26.576s] -- Symlinking: /home/leejeonghun/ros2_example_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.xml
+[26.887s] Invoked command in '/home/leejeonghun/ros2_example_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/leejeonghun/ros2_example_ws/build/examples_rclcpp_minimal_publisher

@@ -1,0 +1,21 @@
+[0.948s] Invoking command in '/home/leejeonghun/ros2_example_ws/src/examples/rclpy/topics/pointcloud_publisher': AMENT_PREFIX_PATH=/home/leejeonghun/ros2_example_ws/install/examples_rclpy_pointcloud_publisher:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/leejeonghun/ros2_example_ws/build/examples_rclpy_pointcloud_publisher/pytest.xml --junit-prefix=examples_rclpy_pointcloud_publisher -o cache_dir=/home/leejeonghun/ros2_example_ws/build/examples_rclpy_pointcloud_publisher/.pytest_cache PYTHONPATH=/home/leejeonghun/ros2_example_ws/build/examples_rclpy_pointcloud_publisher:/home/leejeonghun/ros2_example_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[1.379s] [1m============================= test session starts ==============================[0m
+[1.379s] platform linux -- Python 3.8.10, pytest-4.6.9, py-1.8.1, pluggy-0.13.0
+[1.405s] cachedir: /home/leejeonghun/ros2_example_ws/build/examples_rclpy_pointcloud_publisher/.pytest_cache
+[1.406s] rootdir: /home/leejeonghun/ros2_example_ws/src/examples/rclpy, inifile: pytest.ini
+[1.406s] plugins: ament-flake8-0.10.7, ament-lint-0.10.7, ament-pep257-0.10.7, launch-testing-0.17.1, launch-testing-ros-0.14.3, ament-copyright-0.10.7, ament-xmllint-0.10.7, colcon-core-0.10.0, cov-2.8.1, mock-1.10.4
+[1.484s] [1mcollecting ... [0m[1m
+[1.484s] collected 3 items                                                              [0m
+[1.485s] 
+[1.960s] test/test_copyright.py [32m.[0m[36m                                                 [ 33%][0m
+[2.074s] test/test_flake8.py [32m.[0m[36m                                                    [ 66%][0m
+[2.108s] test/test_pep257.py [32m.[0m[36m                                                    [100%][0m
+[2.108s] 
+[2.109s] [33m=============================== warnings summary ===============================[0m
+[2.109s] /usr/lib/python3/dist-packages/pydocstyle/config.py:6
+[2.109s]   Warning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+[2.109s] 
+[2.109s] -- Docs: https://docs.pytest.org/en/latest/warnings.html
+[2.109s] - generated xml file: /home/leejeonghun/ros2_example_ws/build/examples_rclpy_pointcloud_publisher/pytest.xml -
+[2.109s] [33m[1m===================== 3 passed, 1 warnings in 0.73 seconds =====================[0m
+[2.150s] Invoked command in '/home/leejeonghun/ros2_example_ws/src/examples/rclpy/topics/pointcloud_publisher' returned '0': AMENT_PREFIX_PATH=/home/leejeonghun/ros2_example_ws/install/examples_rclpy_pointcloud_publisher:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/leejeonghun/ros2_example_ws/build/examples_rclpy_pointcloud_publisher/pytest.xml --junit-prefix=examples_rclpy_pointcloud_publisher -o cache_dir=/home/leejeonghun/ros2_example_ws/build/examples_rclpy_pointcloud_publisher/.pytest_cache PYTHONPATH=/home/leejeonghun/ros2_example_ws/build/examples_rclpy_pointcloud_publisher:/home/leejeonghun/ros2_example_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
